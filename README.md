@@ -8,3 +8,4 @@ The code then iterates over each news update, extracts the headline and timestam
 
 Please note that website structures can change over time, so this code may need adjustments if the CNN website modifies its HTML structure or class names.
 You can find variety and Range of "[Products](https://agilityems.com/)" and '[Custom Solutions](https://agilityems.com/custom-solutions/)" here. 
+Check the Python Code.py for thee code
