@@ -7,4 +7,4 @@ This code first sends a GET request to the CNN website using the requests module
 The code then iterates over each news update, extracts the headline and timestamp information, and prints them to the console. Finally, a dashed line is printed to visually separate each news update.
 
 Please note that website structures can change over time, so this code may need adjustments if the CNN website modifies its HTML structure or class names.
-You can find variety and Range of "[Products](https://agilityems.com/)" and '[Custom Solutions],(https://agilityems.com/custom-solutions/)" here. 
+You can find variety and Range of "[Products](https://agilityems.com/)" and '[Custom Solutions](https://agilityems.com/custom-solutions/)" here. 
