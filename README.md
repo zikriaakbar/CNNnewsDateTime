@@ -1,22 +1,9 @@
 # CNNnewsDateTime
 This Python code is designed to scrape the dates and times of news updates from the CNN website.
-import requests
-from bs4 import BeautifulSoup
 
-# Send a GET request to the CNN website
-url = 'https://www.cnn.com/'
-response = requests.get(url)
+Certainly! To scrape the dates and times of news updates on CNN, you can use the BeautifulSoup library in combination with Python's requests module
+This code first sends a GET request to the CNN website using the requests module. Then, it creates a BeautifulSoup object to parse the HTML content of the page. Next, it uses the find_all method to locate the news update elements on the page based on their HTML structure and class name.
 
-# Create a BeautifulSoup object to parse the HTML content
-soup = BeautifulSoup(response.content, 'html.parser')
+The code then iterates over each news update, extracts the headline and timestamp information, and prints them to the console. Finally, a dashed line is printed to visually separate each news update.
 
-# Find the news update elements on the page
-news_updates = soup.find_all('span', class_='cd__headline-text')
-
-# Iterate over the news updates and extract the date and time
-for update in news_updates:
-    headline = update.text.strip()
-    timestamp = update.find_previous('span', class_='cd__timestamp').text.strip()
-    print(f"Headline: {headline}")
-    print(f"Timestamp: {timestamp}")
-    print('-' * 50)
+Please note that website structures can change over time, so this code may need adjustments if the CNN website modifies its HTML structure or class names.
